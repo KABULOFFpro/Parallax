@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* Header start */
+
+.header {
+    min-height: 150vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img {
+    position: absolute;
+    
+}
+
+.header__fantasy {
+    width: 100%;
+    height: 100%;
+    object-position: 0 0;
+    object-fit: cover;
+    position: static;
+}
+
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header__logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header__link { 
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.cloud1 {
+    top: 18%;
+    left: 25%;
+    z-index: 3;
+}
+.cloud2 {
+    top: 5%;
+    left: 61%;
+    z-index: 3;
+}
+
+/* trees start */
+
+.cloud3 {
+    height: 40%;
+    top: 10%;
+    left: -20%;
+    z-index: 4;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.cloud3-reverse {
+    height: 30%;
+    bottom: 0;
+    left: -30%;
+    z-index: 3;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.arca1 {
+    height: 40%;
+    right: -50%;
+    top: 10%;
+    z-index: 4;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.arca1-reverse {
+    height: 30%;
+    bottom: 0;
+    right: -30%;
+    z-index: 4;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+/* trees end */
+
+.cloud5 {
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+}
+
+.cloud6 {
+    bottom: 11.2%;
+    z-index: 60;
+    width: 35%;
+}
+
+.cloud7 {
+    width: 80%;
+    bottom: -100%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* Header end */
+
